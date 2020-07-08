@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.temperauto.MainActivity">
+
+    <EditText
+        android:id="@+id/ValorTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_label"
+        android:inputType="numberDecimal"
+        android:autofillHints=""></EditText>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+
+            android:id="@+id/celciusRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/rd_label_celsius"
+            android:textColor="@color/colorAccent"/>
+
+        <RadioButton
+
+            android:id="@+id/fahreinheitRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/rd_label_fahreinheit"
+            android: android:textColor="@color/colorPrimary"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/converterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/et_label_temp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        >
+
+
+
+    </Button>
+
+
+</LinearLayout>

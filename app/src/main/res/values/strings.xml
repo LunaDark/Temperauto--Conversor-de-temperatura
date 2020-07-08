@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Temperauto</string>
+    <string name="et_label_temp">CONVERTER TEMPERATURA</string>
+    <string name="et_label">Digite a temperatura</string>
+    <string name="rd_label_celsius">Celcius</string>
+    <string name="rd_label_fahreinheit">Fahreinheit</string>
+</resources>
